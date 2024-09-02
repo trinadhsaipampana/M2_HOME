@@ -1,8 +1,12 @@
 Download maven binary file from official website https://maven.apache.org/download.cgi in /opt directory
+
 After downloading, create maven.sh file in /etc/profile.d directory
+
 Edit maven.sh with following content:
 export M2_HOME=/opt/apache-maven-3.9.9
 eport PATH=${M2_HOME}/bin:${PATH}
+
 Provide full access to maven.sh
+
 Execute the following command to load maven.sh globally
 source /etc/profile.d/maven.sh
